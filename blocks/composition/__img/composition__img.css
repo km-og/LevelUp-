@@ -1,0 +1,14 @@
+.composition__img {
+  width: 290px;
+}
+@media screen and (max-width: 1023px) {
+  .composition__img {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .composition__img {
+    width: 150px;
+  }
+}

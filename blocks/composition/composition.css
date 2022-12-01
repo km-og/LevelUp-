@@ -1,0 +1,23 @@
+.composition {
+  padding: 700px 0 50px;
+  width: 100%;
+  background: linear-gradient(#000, 80%, #806589);
+}
+
+@media screen and (max-width: 1279px) {
+  .composition {
+    padding: 650px 0 50px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .composition {
+    padding: 600px 0 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .composition {
+    padding: 850px 0 50px;
+  }
+}

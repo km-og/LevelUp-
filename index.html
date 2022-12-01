@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Inessa Kim">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>LevelUp</title>
+</head>
+
+<body>
+  <div class="page">
+
+    <header class="header">
+      <h1 class="header__title">LevelUp</h1>
+    </header>
+
+    <main class="content">
+      <section class="promo">
+        <video autoplay muted loop class="promo__video">
+          <source src="./images/video.mp4" type="video/mp4">
+        </video>
+        <div class="promo__content">
+          <img src="./images/prod.png" alt="товар" class="promo__img">
+          <div class="promo__container">
+            <ul class="promo__property">
+              <li class="promo__item">
+                <p class="promo__text">&#9733; Premium качество</p>
+              </li>
+              <li class="promo__item">
+                <p class="promo__text">&#9733; Натуральный состав</p>
+              </li>
+              <li class="promo__item">
+                <p class="promo__text">&#9733; Анонимная упаковка</p>
+              </li>
+            </ul>
+            <a href="#order">
+              <button type="button" class="button button__order">Заказать</button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="composition">
+        <ul class="composition__table">
+          <li class="composition__item">
+            <p class="composition__text">Родиола розовая</p>
+            <img src="./images/prod.png" class="composition__photo" alt="ингредиент">
+          </li>
+          <li class="composition__item">
+            <p class="composition__text">Женьшень</p>
+            <img src="./images/prod.png" class="composition__photo" alt="ингредиент">
+          </li>
+          <li class="composition__item">
+            <p class="composition__text">Панты оленя</p>
+            <img src="./images/prod.png" class="composition__photo" alt="ингредиент">
+          </li>
+          <li class="composition__item">
+            <img src="images/prod.png" alt="товар" class="composition__img">
+            <a href="#order">
+              <button type="button" class="button button__order">Заказать</button>
+            </a>
+          </li>
+          <li class="composition__item">
+            <p class="composition__text">Эпимедиум</p>
+            <img src="./images/prod.png" class="composition__photo" alt="ингредиент">
+          </li>
+          <li class="composition__item">
+            <p class="composition__text">Морской конек</p>
+            <img src="./images/prod.png" class="composition__photo" alt="ингредиент">
+          </li>
+          <li class="composition__item">
+            <p class="composition__text">Самец шелкопряда</p>
+            <img src="./images/prod.png" class="composition__photo" alt="ингредиент">
+        </ul>
+      </section>
+
+      <section class="feedback">
+        <button class="feedback__arrow prev">⇦</button>
+        <ul class="feedback__gallery">
+          <li class="feedback__container">
+            <img src="./images/feedback__avatar.png" alt="фото профиля" class="feedback__avatar">
+            <h2 class="feedback__name">Иван</h2>
+            <p class="feedback__text">Рабочая штука!</p>
+          </li>
+          <li class="feedback__container feedback__container_type_active">
+            <img src="./images/feedback__avatar.png" alt="фото профиля" class="feedback__avatar">
+            <h2 class="feedback__name">Иван</h2>
+            <p class="feedback__text">Рабочая штука!</p>
+          </li>
+          <li class="feedback__container">
+            <img src="./images/feedback__avatar.png" alt="фото профиля" class="feedback__avatar">
+            <h2 class="feedback__name">Иван</h2>
+            <p class="feedback__text">Рабочая штука!</p>
+          </li>
+        </ul>
+
+        <button class="feedback__arrow next">⇨</button>
+      </section>
+
+      <section class="product">
+        <div class="product__grid">
+
+          <img src="./images/doctor.png" alt="доктор с продуктом" class="product__img">
+          <div class="product__description">
+            <p class="product__text">
+              Виагра для мужчин полностью безопасна, не вызывает привыкания и зависимости.
+            </p>
+            <a href="#order">
+              <button type="button" class="button button__order">Заказать</button>
+            </a>
+          </div>
+          <ul class="product__list">
+            <li class="product__item">Женьшень</li>
+            <li class="product__item">Родиола розовая</li>
+            <li class="product__item">Панты оленя</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="order" id="order">
+        <div class="order__container">
+
+          <h2 class="order__title">LevelUp</h2>
+
+          <div class="timer">
+            <div class="timer__items">
+              <div class="timer__item timer__days">00</div>
+              <div class="timer__item timer__hours">00</div>
+              <div class="timer__item timer__min">30</div>
+              <div class="timer__item timer__sec">00</div>
+            </div>
+          </div>
+
+          <img src="./images/prod.png" alt="товар" class="promo__img">
+          <div class="order__prices">
+            <h3 class="order__price-old">1590руб</h3>
+            <h3 class="order__price-new">990руб</h3>
+          </div>
+
+          <form class="order__form" name="forma" method="post">
+            <input type="text" class="order__item order__item_type_name" name="heading" placeholder="Имя">
+            <input type="tel" class="order__item order__item_type_phone" name="tel"
+              pattern="+7-[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="+7-123-456-7890">
+
+            <button type=" submit" class="button button__order">Заказать</button>
+
+
+          </form>
+        </div>
+      </section>
+    </main>
+
+  </div>
+</body>
+
+</html>

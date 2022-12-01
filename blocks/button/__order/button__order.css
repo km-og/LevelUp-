@@ -1,0 +1,14 @@
+.button__order {
+  margin-top: 50px;
+  padding: 15px 100px;
+  background-color: #ffffff;
+  border: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  border-radius: 10px;
+}
+.button__order:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,13 @@
+.promo__text {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 20px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+  .promo__text {
+    font-size: 22px;
+    margin: 15px 0 0;
+  }
+}

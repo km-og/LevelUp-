@@ -1,0 +1,28 @@
+.promo__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1279px) {
+  .promo__video {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .promo__video {
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .promo__video {
+    height: 800px;
+  }
+}

@@ -1,0 +1,31 @@
+.composition__item {
+  list-style: none;
+}
+
+.composition__item:first-child {
+  grid-area: ginseng;
+}
+
+.composition__item:nth-child(2) {
+  grid-area: rhodiola;
+}
+
+.composition__item:nth-child(3) {
+  grid-area: deer;
+}
+
+.composition__item:nth-child(4) {
+  grid-area: img;
+}
+
+.composition__item:nth-child(5) {
+  grid-area: horse;
+}
+
+.composition__item:nth-child(6) {
+  grid-area: silkworm;
+}
+
+.composition__item:nth-child(7) {
+  grid-area: epimedium;
+}

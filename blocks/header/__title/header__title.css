@@ -1,0 +1,16 @@
+.header__title {
+  margin: 0;
+  padding: 30px;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+@media screen and (max-width: 767px) {
+  .header__title {
+    font-size: 30px;
+  }
+}
